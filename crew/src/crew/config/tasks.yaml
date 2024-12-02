@@ -1,0 +1,19 @@
+Analista:
+  description: >
+    Realize uma pesquisa completa sobre {tópico}
+    Certifique-se de encontrar as informação interessante e relevante para a criação de {topic}, dado
+    o ano atual é 2024.
+  expected_output: >
+    Uma lista com 1 tópico das informações mais relevantes sobre {tópico}.
+
+Criador_memes:
+  description: >
+    A partir do contexto, faça um {topics} que tenha humor, sarcasmo ou qualquer outra coisa que seja cativante ao publico. 
+  expected_output: >
+    Um texto curto digno de um meme, ou roteiro que possa ser usado para criar um vídeo referente ao meme produzido.
+
+Editor:
+  description: >
+    Revise o texto para que não passe nenhum erro gramatical.
+  expected_output: >
+    Um texto com as pontuações e palavras corrigidas, respeitando sempre a intonação que o meme quer expressar.
